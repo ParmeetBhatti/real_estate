@@ -429,12 +429,12 @@ body.dark-theme{
 
 .logos__img img{
   height: 60px;
-  opacity: .4;
+  opacity: .6;
   transition: .3s;
 }
 
 .logos__img img:hover{
-  opacity: .7;
+  opacity: .9;
 }
 
 /*POPULAR*/
@@ -992,8 +992,8 @@ body.dark-theme{
   }
 
   .logos__container{
-    grid-template-columns: repeat(4z max-content);
-    justify-content: center;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
   }
 
   .value__container,
